@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Review</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+body {margin:0}
+
+.icon-bar {
+    width: 90px;
+    background-color: #555;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+</style>
+<body>
+    <div class="icon-bar">
+      <a class="active" href="Index.html"><i class="fa fa-home"></i></a>
+    </div>
+<!-- Header -->
+    <div class="header">
+          <h1><center>Review Accommodation Seaside<center></h1> 
+    </div>
+    
+
+<!-- Photo Grid -->
+<div class="row">
+    
+      <div class="container">
+        <img src="resortchon1.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> 
+              Balcony Seaside Hotel </br>
+          ที่ตั้ง : 51/31 หมู่ 9 ตำบลบางพระ </br>
+          อำเภอศรีราชา จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3831 2777, 06 2760 8877 </br></div>
+          </div>
+      </div>
+
+      <div class="container">
+        <img src="resortchon2.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> The Boathouse </br>
+          ที่ตั้ง : 21 หมู่ 5 ตำบลบางเสร่  อำเภอสัตหีบ</br> จังหวัดชลบุรี</br> </div>
+          </div>
+      </div>
+   
+      <div class="container">
+        <img src="resortchon3.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Baan Tah on the Sea </br>
+          ที่ตั้ง : 75 หมู่ 4 ตำบลบางเสร่ </br>อำเภอสัตหีบ จังหวัดชลบุรี</br>
+          โทรศัพท์ : 08 2981 9742, 08 1577 4676</br></div> 
+          </div>
+      </div>
+
+      <div class="container">
+        <img src="resortchon4.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Dusit Thani Pattaya </br>
+          ที่ตั้ง : 240/2 ถนนเลียบชายหาด ถนนพัทยากลาง </br>เมืองพัทยา อำเภอบางละมุง จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3842 5611 </br></div>
+          </div>
+      </div>
+
+      <div class="container">
+        <img src="resortchon5.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  The Sea Village </br>
+           ที่ตั้ง : 70/3 หมู่ 8 ตำบลนาจอมเทียน </br>อำเภอสัตหีบ จังหวัดชลบุรี</br>
+          โทรศัพท์ : 08 5444 5563</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon6.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Cape Dara Resort </br>
+            ที่ตั้ง : พัทยาเหนือ ถนนพัทยา-นาเกลือ </br>อำเภอสัตหีบ จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3893 3888</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon7.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Veranda Resort Pattaya </br>
+             ที่ตั้ง : 211 หมู่ 1 นาจอมเทียน ซอย 4 </br>อำเภอสัตหีบ จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3811 1899</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon8.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">   U Pattaya </br>
+             ที่ตั้ง : 70/14 หมู่ 8 ซอยนาจอมเทียน 56/3 </br>อำเภอสัตหีบ จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3304 6100</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon9.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">   Sikhara Plago Resort </br>  
+          ที่ตั้ง : 1/1 ซอยสุขุมวิท 22 ถนนสุขุมวิท </br>เทศบาลเมืองแสนสุข อำเภอเมืองชลบุรี</br>
+          โทรศัพท์ : 0 3819 6085-89</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon10.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">   Baan Sattahip </br>
+              ที่ตั้ง : หมู่ที่ 1 ตำบลสัตหีบ </br>อำเภอสัตหีบ จังหวัดชลบุรี</br>
+          โทรศัพท์ : 08 9929 780</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon11.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">   Centara Grand Mirage Beach Resort </br>
+              ที่ตั้ง : 277 หมู่ 5 ตำบลนาเกลือ</br> อำเภอบางละมุง จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3830 1234</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon12.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">   The Monttra Pattaya </br>
+             ที่ตั้ง : 398 หมู่ 12 ถนนราชวรุณ </br>ตำบลหนองปรือ อำเภอบางละมุง จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3830 6333, 09 2280 6333</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon13.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Ravindra Beach Resort </br>
+              ที่ตั้ง : 246 หมู่ 4 ถนนสุขุมวิท กม. 157 </br>ตำบลนาจอมเทียน อำเภอสัตหีบ จังหวัดชลบุรี</br>
+          โทรศัพท์ : 0 3823 5777</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon14.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">   Capstone Resort</br>
+             299 ซอยซอย 2/6 ถนนเพชรบุรี -โรงแรมหาดเจ้าสำราญ </br>ตำบลหาดเจ้าสำราญ เมืองเพชรบุรี เพชรบุรี</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon15.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Pool Villa</br>
+             63/39 ตำบล หนองแก หัวหิน ประจวบคีรีขันธ์ </br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon16.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Bann ImSook Resort</br>
+             ที่อยู่ : 50/7 หมู่ที่ 5 หาดเจ้าหลาว </br>ตำบลคลองขุด อำเภอท่าใหม่ จังหวัดจันทบุรี</br>
+          โทร : 08-9232-7555, 08-9236-9555</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon17.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Peggy’s Cove Village</br>
+            ที่อยู่ : 44 หมู่ 7 หาดคุ้งวิมาน ตำบลสนามไชย</br> อำเภอนายายอาม จังหวัดจันทบุรี</br>
+            โทร : 0-3946-0345</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon18.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Sand Dunes Chaolao Beach Resort</br>
+             ที่อยู่ : 73 หมู่ 5 ถนนเฉลิมบูรพาชลทิศ หาดเจ้าหลาว</br> ตำบลคลองขุด อำเภอท่าใหม่ จังหวัดจันทบุรี </br>
+            โทร : 0-3946-0550</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon19.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Chaolao Cabana Resort</br>
+             ที่อยู่ : 18/1 หมู่ 5 ถนนเฉลิมบูรพาชลทิศ หาดเจ้าหลาว</br> ตำบลคลองขุด อำเภอท่าใหม่ จังหวัดจันทบุรี </br>
+            โทร : 0-3943-3145</br></div>
+          </div>
+      </div>
+      <div class="container">
+        <img src="resortchon20.jpg" style="width:100%" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Chaolao Forest Beach Resort</br>
+             ที่อยู่ : 123 หมู่ 6 ตำบลคลองขุด </br>อำเภอท่าใหม่ จังหวัดจันทบุรี</br>
+            โทร : 08-2173-7398, 0-3943-3300</br></div>
+          </div>
+      </div>
+</div>
+</body>
+</html>
